@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Bungee';
+    src: url('../fonts/Bungee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+}
+
+.content {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.links .nav-link:hover {
+    color: red;
+}
+
+.login-icon:hover {
+    color: red !important;
+}
+
+.nav-black {
+    color: black;
+}
+
+.nav-blur {
+    background: rgba(255, 255, 255, 0.25); 
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav .dropdown-menu {
+    transition: all 0.5s ease;
+    opacity: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.navbar-nav .dropdown:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.helpdesk-dropdown > .helpdesk-box > a:hover {
+    background-color: rgb(223, 127, 127);
+    color: white; 
+}
+
+.helpdesk-dropdown .dropdown-item:hover {
+    background-color: rgb(223, 127, 127);
+    color: white;
+}
+
+.special-margin {
+    margin-top: 40px;
+}
+
+.home-style {
+    font-family: 'Bungee', sans-serif;
+}
+
+.button-style {
+    background-color: #f71919;
+    color: white;
+}
+
+.button-style:hover {
+    border: 1px solid black;
+    color: rgb(3, 13, 44);
+}
+
+/* .border-for-hover {
+    border-left: 5px solid red;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 0px solid rgb(0, 0, 0);
+    border-radius: 100px 0;
+} */
+
+.category-fs {
+    font-size: 23px;
+}
+
+.category-fs a {
+    border: 1px solid rgb(190, 189, 189);
+}
+
+.category-fs a:hover {
+    border: 1px solid grey;
+}
+
+.hover-shadow:hover {
+    box-shadow: 1px 2px 3px 4px rgba(238, 9, 9, 0.15) !important;
+    transition: box-shadow 0.3s ease !important;
+    /* border: 1px solid red !important; */
+}
+
+.footer-hover {
+    background-color: white;
+}
+
+.footer-con {
+    background-color: white;
+}
+
+.footer-hover a {
+    color: black;
+}
+
+.footer-hover a:hover {
+    color: red;
+}
+
+.logout-hover:hover {
+    color: red;
+    border: 1px solid black !important;
+}
+
+.card-img-top {
+    height: 220px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-img-top {
+    height: 220px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.img-show {
+    height: auto;
+    width: auto;
+}
+
