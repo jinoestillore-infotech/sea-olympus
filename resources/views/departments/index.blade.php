@@ -77,7 +77,7 @@
                         @empty
                             <tr>
                                 <td colspan="4" class="text-center text-muted">
-                                    No departments found.
+                                    No department found.
                                 </td>
                             </tr>
                         @endforelse
